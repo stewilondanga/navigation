@@ -209,11 +209,12 @@
   text-shadow: #FFF 0 0 15px;
 }
 
-/*.navbar .circles li:hover {
+.navbar .circles li:hover {
   -webkit-transform: scale(0.8);
   text-shadow: #FFF 0 0 15px;
 }
-.navbar .circles li:hover span {
+
+/*.navbar .circles li:hover span {
   -webkit-transform: scale(1.2);
   width: 100px;
   opacity: 1;
