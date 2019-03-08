@@ -57,7 +57,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 
   });
 });
-/*
+
 function toggleGlow() {
   sections.forEach(section => {
     $('li.' + section.substring(1)).classList.remove('glow');
@@ -66,7 +66,7 @@ function toggleGlow() {
     }
   });
 }
-
+/*
 function actions() {
   sections.forEach(section => {
     if (onVisibilityChange($(section)))
