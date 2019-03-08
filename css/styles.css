@@ -180,11 +180,12 @@
   transform: translateX(0);
 }
 
-/*.navbar .nav ul.links.open {
+.navbar .nav ul.links.open {
   opacity: 1;
   visibility: visible;
 }
-.navbar .nav.open {
+
+/*.navbar .nav.open {
   left: 0;
 }
 .navbar .circles {
