@@ -113,11 +113,12 @@
   top: 15px;
 }
 
-/*.navbar .hamburger.open span:nth-child(6) {
+.navbar .hamburger.open span:nth-child(6) {
   left: calc(50% - 3px);
   top: 15px;
 }
-.navbar .nav {
+
+/*.navbar .nav {
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: space-around;
