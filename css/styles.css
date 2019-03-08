@@ -260,14 +260,15 @@ main {
   width: 100%;
 }
 
-/*main > div {
+main>div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
 }
-main #home {
+
+/*main #home {
   background-color: #00BCD4;
 }
 main #pictures {
