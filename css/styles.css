@@ -137,13 +137,14 @@
   text-decoration: none;
 }
 
-/*.navbar .nav ul.links {
+.navbar .nav ul.links {
   transition: all 0.5s ease-in-out;
   width: 80%;
   opacity: 0;
   visibility: hidden;
 }
-.navbar .nav ul.links li {
+
+/*.navbar .nav ul.links li {
   cursor: pointer;
   list-style: none;
   margin: 2.5rem 1rem;
