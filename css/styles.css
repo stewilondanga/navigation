@@ -118,7 +118,7 @@
   top: 15px;
 }
 
-/*.navbar .nav {
+.navbar .nav {
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: space-around;
@@ -131,7 +131,8 @@
   transition: all 0.5s ease-out;
   z-index: 2;
 }
-.navbar .nav a {
+
+/*.navbar .nav a {
   color: white;
   text-decoration: none;
 }
