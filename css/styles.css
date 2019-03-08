@@ -152,14 +152,15 @@
   text-transform: uppercase;
 }
 
-/*.navbar .nav ul.links li::before, .navbar .nav ul.links li::after {
+.navbar .nav ul.links li::before, .navbar .nav ul.links li::after {
   display: inline-block;
   opacity: 0;
   transition: opacity 0.2s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.2s;
   transition: transform 0.3s, opacity 0.2s, -webkit-transform 0.3s;
 }
-.navbar .nav ul.links li::before {
+
+/*.navbar .nav ul.links li::before {
   margin-right: 5px;
   content: "[";
   -webkit-transform: translateX(20px);
