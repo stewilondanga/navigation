@@ -221,7 +221,7 @@
   visibility: visible;
 }
 
-/*.navbar .circles li span {
+.navbar .circles li span {
   height: 20px;
   width: 0;
   background-color: #455A64;
@@ -240,7 +240,8 @@
   transition: all 0.5s ease-in-out;
   white-space: nowrap;
 }
-.navbar .circles.open {
+
+/*.navbar .circles.open {
   margin-left: -100px;
   opacity: 0;
   visibility: hidden;
