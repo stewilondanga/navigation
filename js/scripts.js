@@ -12,7 +12,7 @@ const $ = e => document.querySelector(e);
 const sections = ['#home', '#pictures', '#projects', '#blog', '#about', '#contact'];
 let currSec;
 
-/*function inView(el) {
+function inView(el) {
   var rect = el.getBoundingClientRect();
 
   return (
@@ -23,7 +23,7 @@ let currSec;
 
 }
 
-function onVisibilityChange(el) {
+/*function onVisibilityChange(el) {
   let old_visible;
   let visible = inView(el);
   if (visible != old_visible) {
