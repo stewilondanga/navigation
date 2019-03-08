@@ -247,19 +247,20 @@
   visibility: hidden;
 }
 
-/*main {
+main {
   display: flex;
   flex-wrap: wrap;
   -ms-scroll-snap-points-y: repeat(100vh);
-      scroll-snap-points-y: repeat(100vh);
+  scroll-snap-points-y: repeat(100vh);
   -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
   -ms-scroll-snap-destination: 100% 0%;
-      scroll-snap-destination: 100% 0%;
+  scroll-snap-destination: 100% 0%;
   text-align: center;
   width: 100%;
 }
-main > div {
+
+/*main > div {
   display: flex;
   justify-content: center;
   align-items: center;
