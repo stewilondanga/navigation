@@ -292,17 +292,20 @@ main #contact {
   background-color: #7E57C2;
 }
 
-/*@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .navbar {
     width: 100%;
   }
+
   .navbar .hamburger {
     top: 0.8rem;
     left: 0.8rem;
   }
+
   .navbar .hamburger.open {
     left: calc(100vw - 60px);
   }
+
   .navbar .nav {
     align-items: flex-end;
     flex-wrap: wrap;
@@ -312,35 +315,43 @@ main #contact {
     top: calc(-100vh + 50px);
     width: 100%;
   }
+
   .navbar .nav ul.links {
     font-size: 32px;
   }
+
   .navbar .nav ul.links li {
     margin: 1rem;
   }
+
   .navbar .nav .circles {
     display: inline-flex;
     justify-content: space-around;
     width: 50vw;
   }
+
   .navbar .nav .circles li {
     margin: 15px 0;
   }
+
   .navbar .nav .circles li i {
     font-size: 16px;
   }
+
   .navbar .nav .circles li span {
     display: none;
   }
+
   .navbar .nav .circles.open {
     margin-top: -100px;
   }
+
   .navbar .nav.open {
     top: 0;
   }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
