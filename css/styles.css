@@ -241,13 +241,13 @@
   white-space: nowrap;
 }
 
-/*.navbar .circles.open {
+.navbar .circles.open {
   margin-left: -100px;
   opacity: 0;
   visibility: hidden;
 }
 
-main {
+/*main {
   display: flex;
   flex-wrap: wrap;
   -ms-scroll-snap-points-y: repeat(100vh);
