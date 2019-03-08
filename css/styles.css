@@ -214,13 +214,14 @@
   text-shadow: #FFF 0 0 15px;
 }
 
-/*.navbar .circles li:hover span {
+.navbar .circles li:hover span {
   -webkit-transform: scale(1.2);
   width: 100px;
   opacity: 1;
   visibility: visible;
 }
-.navbar .circles li span {
+
+/*.navbar .circles li span {
   height: 20px;
   width: 0;
   background-color: #455A64;
