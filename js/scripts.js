@@ -23,7 +23,7 @@ function inView(el) {
 
 }
 
-/*function onVisibilityChange(el) {
+function onVisibilityChange(el) {
   let old_visible;
   let visible = inView(el);
   if (visible != old_visible) {
@@ -31,7 +31,7 @@ function inView(el) {
   }
   return visible;
 }
-
+/*
 // Toggle classes for when hamburger is pressed
 $('.hamburger').addEventListener('click', e => {
   $('.hamburger').classList.toggle('open');
