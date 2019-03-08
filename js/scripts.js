@@ -6,10 +6,10 @@ var navigate = (function() {
     $('.' + dataName).toggle();
   });
 })();
-/*
+
 // the jQuery wannabe :P
 const $ = e => document.querySelector(e);
-const sections = ['#home', '#pictures', '#projects', '#blog', '#about', '#contact'];
+/*const sections = ['#home', '#pictures', '#projects', '#blog', '#about', '#contact'];
 let currSec;
 
 function inView(el) {
