@@ -74,10 +74,11 @@
   top: 20px;
 }
 
-/*.navbar .hamburger.open {
+.navbar .hamburger.open {
   left: 240px;
 }
-.navbar .hamburger.open span:nth-child(1), .navbar .hamburger.open span:nth-child(6) {
+
+/*.navbar .hamburger.open span:nth-child(1), .navbar .hamburger.open span:nth-child(6) {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
