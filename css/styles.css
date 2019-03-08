@@ -189,10 +189,11 @@
   left: 0;
 }
 
-/*.navbar .circles {
+.navbar .circles {
   transition: all 0.5s ease-in-out;
 }
-.navbar .circles li {
+
+/*.navbar .circles li {
   position: relative;
   cursor: pointer;
   font-size: 20px;
