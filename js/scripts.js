@@ -39,10 +39,10 @@ $('.hamburger').addEventListener('click', e => {
   $('.links').classList.toggle('open');
   $('.circles').classList.toggle('open');
 });
-/*
+
 // Minimise navbar when a link is pressed
 document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', function (e) {
+  a.addEventListener('click', function(e) {
     e.preventDefault();
 
     $('.hamburger').classList.remove('open');
@@ -52,11 +52,12 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 
     // Allow for smooth scrolling
     $(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth' });
+      behavior: 'smooth'
+    });
 
   });
 });
-
+/*
 function toggleGlow() {
   sections.forEach(section => {
     $('li.' + section.substring(1)).classList.remove('glow');
