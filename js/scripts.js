@@ -75,7 +75,7 @@ function actions() {
 
   toggleGlow();
 }
-/*
+
 if (window.addEventListener) {
   window.addEventListener('DOMContentLoaded', () => actions());
   window.addEventListener('scroll', () => actions());
