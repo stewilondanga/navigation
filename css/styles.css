@@ -268,10 +268,11 @@ main>div {
   width: 100%;
 }
 
-/*main #home {
+main #home {
   background-color: #00BCD4;
 }
-main #pictures {
+
+/*main #pictures {
   background-color: #8BC34A;
 }
 main #projects {
