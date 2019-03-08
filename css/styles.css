@@ -98,11 +98,12 @@
   top: 6px;
 }
 
-/*.navbar .hamburger.open span:nth-child(3) {
+.navbar .hamburger.open span:nth-child(3) {
   left: -50%;
   opacity: 0;
 }
-.navbar .hamburger.open span:nth-child(4) {
+
+/*.navbar .hamburger.open span:nth-child(4) {
   left: 100%;
   opacity: 0;
 }
