@@ -108,11 +108,12 @@
   opacity: 0;
 }
 
-/*.navbar .hamburger.open span:nth-child(5) {
+.navbar .hamburger.open span:nth-child(5) {
   left: 3px;
   top: 15px;
 }
-.navbar .hamburger.open span:nth-child(6) {
+
+/*.navbar .hamburger.open span:nth-child(6) {
   left: calc(50% - 3px);
   top: 15px;
 }
