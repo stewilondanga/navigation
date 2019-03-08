@@ -9,8 +9,8 @@ var navigate = (function() {
 
 // the jQuery wannabe :P
 const $ = e => document.querySelector(e);
-/*const sections = ['#home', '#pictures', '#projects', '#blog', '#about', '#contact'];
-let currSec;
+const sections = ['#home', '#pictures', '#projects', '#blog', '#about', '#contact'];
+/*let currSec;
 
 function inView(el) {
   var rect = el.getBoundingClientRect();
