@@ -88,11 +88,12 @@
   transform: rotate(-45deg);
 }
 
-/*.navbar .hamburger.open span:nth-child(1) {
+.navbar .hamburger.open span:nth-child(1) {
   left: 3px;
   top: 6px;
 }
-.navbar .hamburger.open span:nth-child(2) {
+
+/*.navbar .hamburger.open span:nth-child(2) {
   left: calc(50% - 3px);
   top: 6px;
 }
