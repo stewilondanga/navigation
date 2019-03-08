@@ -66,16 +66,16 @@ function toggleGlow() {
     }
   });
 }
-/*
+
 function actions() {
   sections.forEach(section => {
     if (onVisibilityChange($(section)))
-    currSec = $(section);
+      currSec = $(section);
   });
 
   toggleGlow();
 }
-
+/*
 if (window.addEventListener) {
   window.addEventListener('DOMContentLoaded', () => actions());
   window.addEventListener('scroll', () => actions());
